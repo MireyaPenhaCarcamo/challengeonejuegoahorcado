@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Ahorcado alura challenge One Oracle</title>
+    <link rel="stylesheet" href="miestilo.css">
+    </head>
+    <body>
+        <video autoplay muted loop id="myVideo">
+                  <source src="D12.mp4" type="video/mp4">
+            
+                </video>
+                <audio src="Terror.mp3" autoplay="autoplay"></audio>
+         
+
+        <main id="contenido">
+           <header>
+               <h1>Juego de ahorcado</h1>
+            <p>Mireya Peña</p>
+            <p4>AlluraChallenge OracleOne program.</p4>
+            <p4>see bellow</p4>
+        
+        </header>     
+           
+
+
+            <div id="caja-inicio">
+        
+
+        <button id="btn-inicio" onclick=document.location="ahorcado.html">iniciar</button>
+
+    
+            </div>
+    
+            <div id="caja-agregar">
+    
+                <br>
+                <div class="cajaagregar">
+                    <input type="text"  id="nuevapalabra" placeholder="Ingrese una palabra">
+                    <button id="btn-nuevapalabra" onclick="agregarpalabra()">agregar</button>
+        
+                    <button id="btn-limpiar"onclick="limpiar()">limpiar</button>
+                    <button  id="reiniciarjuego" onclick="location.reload()">juegonuevo</button>
+    
+                </div>
+
+
+                <div id = "canvajugar" style="text-align:center">
+                    <canvas id="ahorcado" height="  500px" width="800px"></canvas>
+                    
+                </div>    
+                <div>
+                      <audio autoplay=true >
+                   
+                        <source src="Terror.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                      </audio>
+                </div>      
+                
+    
+            </div>
+    
+            <div id= "Secreta"></div>
+           
+            
+           
+    <footer>
+            <p>Desarrollado  Mireya Peña </p>
+            <p>juego ahorcado 2022</p>
+            <audio controls>
+                <source src="Terror.mp3" type="audio/mp3">
+                    Tu navegador no soporta audio HTML5.
+            </audio>
+        </footer>
+        </main>
+    
+        
+    
+        <script src="juego.js"></script>
+        <script src="canvas.js"></script>
+    </body>
+    
+    </html>
+
+    </body>
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,211 @@
+header, footer{
+    max-width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+
+
+
+
+h1{
+    color:greenyellow;
+}
+
+
+canvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+input{
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+   display: block;
+    padding: 10px;
+    width: 100%;
+    height: 10px;
+   margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+  }
+/* 2do html*/
+#letra{
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+   display: block;
+    padding: 10px;
+    width: 40%;
+    height: 10px;
+   margin-left: auto;
+  margin-right: auto;
+  margin-top:10px; 
+}
+
+  
+#btn-inicio{
+    background-color: black;
+    color:greenyellow;
+    font-size: 14px;
+    border:none;
+    border-radius:20px;
+    width:10%;
+    padding:10px;
+    margin-top:40px;
+}
+
+#btn-nuevapalabra,#btn-limpiar{
+    background-color: black;
+    color:greenyellow;
+    font-size: 14px;
+    border:none;
+    border-radius:20px;
+    width:150px;
+    padding:10px;
+    margin-top:40px; 
+    display:block;
+}
+
+#reiniciarjuego{
+    background-color: black;
+    color:greenyellow;
+    font-size: 14px;
+    border:none;
+    border-radius:20px;
+    width:150px;
+    height: 50%;
+    padding:10px;
+    margin-top:40px; 
+    display:block;
+}
+
+
+
+#btn-jugar{
+    background-color: black;
+    color:greenyellow;
+    font-size: 14px;
+    border:none;
+    border-radius:20px;
+    width:150px;
+    padding:10px;
+    margin-top:40px; 
+    display:block;
+}
+#btn-checar{
+    background-color: black;
+    color:greenyellow;
+    font-size: 14px;
+    border:none;
+    border-radius:20px;
+    width:150px;
+    padding:10px;
+    margin-top:40px; 
+    display:block;
+}
+
+.cajaagregar{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:20px;
+    
+}
+
+
+#cajon-agregar{
+    display: none;
+}
+#audiomi{
+    z-index:1 ;
+
+}
+
+#myVideo
+{
+ margin:0px;
+ padding:0px;
+ position: fixed;
+ top: 50%; left: 50%;
+ z-index: 1;
+ min-width: 100%;
+ min-height: 100%;
+ transform: translate(-50%, -50%);
+}
+#contenido{
+    position:relative;
+    text-align:center;
+    margin:0;
+    padding: 0;
+    width:100%;
+    z-index:2;
+    
+  }
+  
+#nueva-palabra{
+    position:relative;
+    padding:30px;
+    position:fixed;
+    border-radius:10px;
+    
+}
+
+
+p,p4{
+    color:greenyellow;
+   
+
+}
+
+#Secreta{
+    font-size:100px;
+    background-image:"fondo.png";
+    color:lightgray;
+    
+}
+#body2{
+    background-image:"fondo.png";
+    min-width:100%;
+}
+
+#hangman{
+    width:334px;
+    height:458px;
+    background-image:url("hangmantotal.jpg");
+    display:inline-flex;
+}
+#ganador{
+    display:none;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:100%;
+    background-color:black;
+    font-size: 5rem;
+    position:fixed;
+    top:0;
+    left:0;
+    color:greenyellow;
+
+}
+#perdiste{
+    display:none;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:100%;
+    background-color:red;
+    font-size: 5rem;
+    position:fixed;
+    top:0;
+    left:0;
+    color:rgb(7, 10, 3);
+
+}

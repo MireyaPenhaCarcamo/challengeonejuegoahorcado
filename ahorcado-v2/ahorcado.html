@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="miestilo.css">
+    </head>
+     
+
+    <body background="space.png" >
+    <header>
+    <h1>Juego de ahorcado</h1>
+   <p>Mireya Peña</p>
+   <p4>AlluraChallenge OracleOne program.</p4>
+   <p4>sorpresa de audio abajo</p4>
+
+</header>    
+<div  id="botonessegundapagina">
+      <button id="btn-jugar" onclick="iniciar()">iniciar juego</button>
+       <p4> Ingrese solo mayusculas </p4>
+      <input type="text" id="letra" maxlength="1" id="nuevaletra" placeholder="Ingrese una letra"></input>
+     
+
+    
+    
+      <button id="btn-checar" >verifica</button>
+      <button  id="reiniciarjuego" onclick="location.reload()">juegonuevo</button>
+
+      <div id= "Secreta"></div>
+      <div id="hangman"></div>
+
+ <div id="ganador">
+<p>felicidades  :)</p>
+<p>Has vencido!!!</p>
+
+ </div>
+
+  <div id="perdiste">
+<p>Sorry :(</p>
+<p>Suerte a la proxima!!!</p>
+
+ </div>
+
+
+</div>
+
+
+            <div id = "canvajugar" style="text-align:center">
+              <canvas id="ahorcado" height="  500px" width="800px"></canvas>
+              
+               
+                 
+           </div>
+          
+          
+          
+
+     
+
+      
+
+
+
+
+      
+          </main>
+      
+          <footer>
+            <p class="footer__texto">Mireya Peña Cárcamo 2022.</p>
+         
+              <audio controls>
+                <source src="Terror.mp3" type="audio/mp3">
+                    Tu navegador no soporta audio HTML5.
+            </audio>
+          
+          </footer>
+
+
+          <script src="juego.js"></script>
+          <script src="canvas.js"></script>
+
+    </body>
+    </html>
